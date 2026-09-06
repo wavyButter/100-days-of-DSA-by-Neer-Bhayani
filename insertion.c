@@ -98,9 +98,9 @@ int main(){
 
 
     
-    //head = insertatfirst(head, 68);
-    // head = insertatindex(head, 69, 1);
-    //head = insertatend(head, 68);
+    head = insertatfirst(head, 68);
+    head = insertatindex(head, 69, 1);
+    head = insertatend(head, 68);
     head = insertafter(head, second, 68);
     linkedlisttraversal(head);
     
